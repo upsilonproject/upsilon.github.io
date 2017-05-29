@@ -1,0 +1,65 @@
+ul.navigation {
+	display: none;
+}
+
+label {
+	display: block;
+	background-color: gray;
+	cursor: pointer;
+}
+
+input[type="checkbox"]:checked ~ label {
+	background-color: white;
+}
+
+input[type="checkbox"]:checked ~ label:after {
+}
+
+label:after {
+	content: '';
+	display: block;
+}
+
+input[type="checkbox"]:checked ~ ul {
+	display: block;
+	z-index: 999;
+	position: absolute;
+	right: 0px;
+	left: 1em;
+}
+
+ul.submenu {
+	left: auto;
+	display: block;
+}
+
+ul.navigation {
+	background-color: gray;
+}
+
+ul.topmenu > li {
+	display: block;
+}
+
+ul.topmenu li a {
+	display: block;
+}
+
+ul.submenu {
+	position: relative;
+	width: auto;
+}
+
+ul.submenu li a {
+	padding-left: 1em;
+}
+
+div.searchContainer {
+	display: none;
+}
+
+div.line {
+	background-color: #444;
+	height: .4em;
+	margin: .3em;
+}

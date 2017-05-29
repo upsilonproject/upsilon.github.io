@@ -1,0 +1,16 @@
+body {
+	background-color: #efefef;
+}
+
+div#content {
+	background-color: white;
+}
+
+div#torso {
+	max-width: 1024px; 
+	margin: auto;
+}
+
+ul.topmenu {
+	margin-left: 1em;
+}

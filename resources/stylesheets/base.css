@@ -1,0 +1,186 @@
+body {
+	font-family: sans-serif;
+	margin: 0;
+	line-height: 1.5;
+}
+
+ul.navigation {
+	text-transform: uppercase;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	vertical-align: top;
+	list-style: none;
+}
+
+ul.topmenu {
+	margin-right: 1em;
+}
+
+ul.topmenu > li {
+	display: inline-block;
+	min-width: 8em;
+}
+
+ul.topmenu > li > a {
+	font-weight: bold;
+	display: block;
+}
+
+ul.submenu {
+	background-color: gray;
+	position: absolute;
+}
+
+div#header {
+	background-color: #444;
+}
+
+div#header a {
+	color: white;
+}
+
+div#content {
+	padding: 1em;
+}
+
+div#footer {
+	padding: 1em;
+	color: gray;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover { 
+	text-decoration: underline;
+}
+
+div#header h1 {
+	vertical-align: middle;
+	margin: 0;
+	padding-left: .5em;
+}
+
+div#header div.logo a {
+	color: red;
+	text-decoration: none;
+}
+
+nav {
+	max-width: 1000px;
+	display: inline-block;
+}
+
+nav ul li:hover {
+}
+
+nav ul li:hover ul, nav ul li a:focus + ul {
+	left: auto;
+}
+
+ul.submenu {
+	width: 15em;
+	left: -100em;
+}
+
+label {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	right: .5em;
+	top: .5em;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+}
+
+label:hover {
+	background-color: #ccc;
+}
+
+input[type="checkbox"], label {
+	display: none;
+}
+
+div#header a:focus {
+	color: cyan;
+}
+
+div#content a:focus {
+	background-color: cyan;
+}
+
+nav a {
+	display: block;
+	padding: .4em;
+}
+
+nav a:hover {
+	background-color: black;
+	color: white;
+}
+
+div#header a#a11yContentSkip {
+	width: 1px;
+	height: 1px;
+	position: absolute;
+	overflow: hidden;
+	top: -10px;
+}
+
+div#header a#a11yContentSkip:focus { 
+	padding: 1em;
+	width: auto;
+	height: auto;
+	overflow: auto;
+	top: auto;
+	background-color: cyan;
+	color: black;
+}
+
+div.searchContainer {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	width: 40%;
+	top: 1em;
+	right: 1em;
+}
+
+a.button, a.button:visited {
+	background-color: #444;
+	padding: .6em;
+	padding-left: 1em;
+	padding-right: 1em;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 1.5;
+	margin: .5em;
+}
+
+a.button:hover, a.button:focus, a.button:active {
+	background-color: maroon !important;
+	text-decoration: none;
+}
+
+hr {
+	margin: 2em;
+}
+
+div.logo {
+	padding-left: 1em;
+}
+
+div.logo img, div.logo h1 {
+	display: inline-block;
+}
+
+div.logo img {
+	vertical-align: middle;
+}
+
+h3 {
+	margin-bottom: -.8em;
+}

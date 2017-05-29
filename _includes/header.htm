@@ -1,0 +1,73 @@
+<html>
+
+<head>
+	<title>{{page.title}} &bull; Upsilon Project</title>
+	<link rel = "stylesheet" type = "text/css" href = "resources/stylesheets/base.css" />
+	<link rel = "stylesheet" type = "text/css" href = "resources/stylesheets/mobile.css" media = "screen and (max-width: 768px)" />
+	<link rel = "stylesheet" type = "text/css" href = "resources/stylesheets/desktop.css" media = "screen and (min-width: 768px)" />
+	<meta name="viewport" content="width=device-width" />
+</head>
+
+<body>
+	<div id = "header">
+		{% if page.hideTitle == null %}
+		<div class = "logo">
+			<a href = "/">
+			<img src = "resources/images/logo/120px-Logo.png" width = "30px"/>
+			<h1>upsilon</h1>
+			</a>
+		</div>
+		{% endif %}
+
+		<a href = "#content" id = "a11yContentSkip">Skip to content</a>
+
+<div class = "searchContainer">
+<script>
+  (function() {
+    var cx = '016082243688264737932:jgjxlqj1w48';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+</div>
+
+
+		<nav>
+			<input type = "checkbox" id = "nav" />
+			<label for = "nav">
+				<div class = "line"></div>
+				<div class = "line"></div>
+				<div class = "line"></div>
+			</label>
+			<ul class = "navigation topmenu">
+				<li><a href = "index">Project</a>
+					<ul class = "navigation submenu">
+						<li><a href = "about">About</a></li>
+						<li><a href = "http://github.com/upsilonproject">GitHub Project</a></li>
+					</ul>
+				</li>
+				<li><a href = "upsilon-drone">drone</a>
+					<ul class = "navigation submenu">
+						<li><a href = "releases-drone">Releases</a></li>
+						<li><a href = "quickstart-drone">Quickstart</a></li>
+						<li><a href = "service-checks">Service Checks</a></li>
+					</ul>
+				</li>
+				<li><a href = "upsilon-web">web</a>
+					<ul class = "navigation submenu">
+						<li><a href = "releases-web">Releases</a></li>
+						<li><a href = "quickstart-web">Quickstart</a></li>
+						<li><a href = "screenshots">Screenshots</a></li>
+					</ul>
+				</li>
+				<li><a href = "upsilon-mobile">mobile</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div id = "torso">
