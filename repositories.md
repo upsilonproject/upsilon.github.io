@@ -2,4 +2,4 @@
 title: Repositories
 ---
 
-Please go to <a href = "repositories.upsilon-project.co.uk">repositories.upsilon-project.co.uk</a>
+Please go to <a href = "http://repos.upsilon-project.co.uk">http://repos.upsilon-project.co.uk</a>
