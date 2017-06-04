@@ -14,3 +14,8 @@ div#torso {
 ul.topmenu {
 	margin-left: 1em;
 }
+
+table  {
+	max-width: 30%;
+	float: right;
+}

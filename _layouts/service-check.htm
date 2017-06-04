@@ -1,0 +1,45 @@
+{% include header.htm %}
+	<div id = "content">
+		<h2><a href = "service-checks">Service Checks</a> &raquo; {{page.title}}</h2>
+
+		<table>
+			<tr>
+				<td colspan = "2"><strong>Service Overview</strong></td>
+			</tr>
+			<tr>
+				<td><strong>Fedora</strong></td>
+				<td>{{ page.fedora | default:'<span class = "subtle">-</span>'}}</td>
+			</tr>
+			<tr>
+				<td><strong>Debian</strong></td>
+				<td>{{ page.debian | default:'<span class = "subtle">-</span>'}}</td>
+			</tr>
+			<tr>
+				<td><strong>Source Code</strong></td>
+				<td>{{ page.sourceCode | default:'<span class = "subtle">not listed</span>' }}</td>
+			</tr>
+			<tr>
+				<td><strong><abbr title = "Includes many distros, CentOS, SuSe, etc">pkgs.org</abbr></strong></td>
+				<td><a href = "{{ page.pkgsorg }}" target = "_new" class = "external">{{ page.pkgsorg }}</a></td>
+			</tr>
+			<tr>
+				<td><strong>External docs</strong></td>
+				<td><a href = "{{ page.externalDocs }}" target = "_new" class = "external">{{ page.externalDocs }}</a></td>
+			</tr>
+
+		</table>
+
+		<h3>Summary</h3>
+		<p>{{page.summary}}</p>
+
+		<h4>Result codes</h4>
+		<ul>
+			<li><span class = "karmaGood">GOOD</span> - {{ page.goodCondition | default:'<span class = "subtle">Undefined</span>'}} </li>
+			<li><span class = "karmaWarn">WARN</span> - {{ page.warnCondition | default:'<span class = "subtle">Undefined</span>'}} </li>
+			<li><span class = "karmaBad">BAD</span> - {{ page.badCondition    | default:'<span class = "subtle">Undefined</span>'}} </li>
+		</ul>
+
+		<h3>Detail</h3>
+		{{content}}
+	</div>
+{% include footer.htm %}
