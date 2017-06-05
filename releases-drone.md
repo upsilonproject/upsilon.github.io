@@ -11,7 +11,8 @@ title: Upsilon Drone Releases
 	<li><a href = "#rpi">{% include iconRpi.htm %} RPI (Rasbian OS)</a></li>
 	<li><a href = "#win">{% include iconWin.htm %} Windows</a></li>
 	<li><a href = "#mac">{% include iconMac.htm %} Mac OS</a></li>
-	<li><a href = "#archives">{% include iconArchive.htm %} Archives</a></li>
+	<li><a href = "#archivesZip">{% include iconArchive.htm %} ZIP archives</a></li>
+	<li><a href = "#archivesTar">{% include iconArchive.htm %} TAR archives</a></li>
 </ul>
 
 <div id = "dockerCentos" class = "tab">
@@ -70,16 +71,21 @@ See the [rpi](rpi) specific instructions.
 </div>
 
 <div id = "win" class = "tab">
-Windows support is quite primitive at the moment. You can download the archives and go from there.
+Windows support is quite primitive at the moment. You can download the <a href = "#archivesZip">ZIP archives</a> and go from there.
 </div>
 
 <div id = "mac" class = "tab" markdown = "1">
 ![](resources/images/HowAboutNo.jpg)
 </div>
 
-<div id = "archives" class = "tab">
-FIXME
+<div id = "archivesZip" class = "tab">
+<a href = "http://repos.upsilon-project.co.uk/upsilon-zips/">http://repos.upsilon-project.co.uk/upsilon-zips/</a>
 </div>
+
+<div id = "archivesTar" class = "tab">
+<a href = "http://repos.upsilon-project.co.uk/upsilon-tars/">http://repos.upsilon-project.co.uk/upsilon-tars/</a>
+</div>
+
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
