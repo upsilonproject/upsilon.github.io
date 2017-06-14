@@ -46,7 +46,7 @@ div#content {
 
 div#splash {
 	padding: 1em;
-	background-color: #581845;
+	background-color: black;
 	color: white;
 }
 
@@ -172,7 +172,14 @@ a.button:hover, a.button:focus, a.button:active {
 }
 
 hr {
-	margin: 2em;
+	width: 30%;
+	margin: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	height: 0;
+	border: 0;
+	border-bottom: 2px dashed black;
+	text-align: center;
 }
 
 div.logo {
