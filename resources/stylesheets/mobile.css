@@ -2,7 +2,7 @@ ul.navigation {
 	display: none;
 }
 
-label {
+label.mobileOnly {
 	display: block;
 	background-color: gray;
 	cursor: pointer;
@@ -26,6 +26,7 @@ input[type="checkbox"]:checked ~ ul {
 	position: absolute;
 	right: 0px;
 	left: 1em;
+	top: 3em;
 }
 
 ul.submenu {

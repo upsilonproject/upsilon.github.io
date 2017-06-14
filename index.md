@@ -4,14 +4,6 @@ hideTitle: true
 title: Homepage
 ---
 
-{% include homepageBanner.htm %}
-
----
-
-<div style = "text-align:center" markdown = "1">
-![](resources/images/screenshots/200px-CheckDns.png)
-![](resources/images/screenshots/200px-Dashboard.png)
-</div>
 
 ### Distributed
 Send results to external databases or forward results to other nodes. You run service checks on Upsilon nodes in your network where it makes sense. upsilon-web provides a single unified interface of these distributed nodes.
