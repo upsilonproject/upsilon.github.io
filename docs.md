@@ -1,8 +1,8 @@
 ---
-title: Services & Documentation
+title: Documentation
 ---
 
-Upsilon is built from a microservices architecture, composed of several services that connect together. This makes Upsilon easy to build, scale and extend. 
+Upsilon is built from a microservices architecture, composed of several services that connect together. This makes Upsilon easy to build, scale and extend. The documentation below lists each microservice separately.
 
 ### [Drone](upsilon-drone)
 
