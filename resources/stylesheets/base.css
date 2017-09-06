@@ -19,12 +19,13 @@ ul.topmenu {
 
 ul.topmenu > li {
 	display: inline-block;
-	min-width: 8em;
 }
 
 ul.topmenu > li > a {
 	font-weight: bold;
 	display: block;
+	padding-right: 1em;
+	padding-left: 1em;
 }
 
 ul.submenu {
