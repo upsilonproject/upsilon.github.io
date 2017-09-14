@@ -26,7 +26,7 @@ Then, inside the container;
 	<code>
 	{% include shellContainer.htm %} yum install vim wget -y<br />
 	{% include shellContainer.htm %} cd /etc/yum.repos.d<br />
-	{% include shellContainer.htm %} wget http://repos.upsilon-project.co.uk/upsilon-rpm-el7/upsilon-rpm-el7.repo<br />
+	{% include shellContainer.htm %} wget http://repos.upsilonproject.io/upsilon-rpm-el7/upsilon-rpm-el7.repo<br />
 	{% include shellContainer.htm %} yum install upsilon-node
 	</code>
 </div>
@@ -34,7 +34,7 @@ Then, inside the container;
 <div id = "fedora" class = "tab">
 	<code>
 	{% include shellRoot.htm %}cd /etc/yum.repos.d/<br />
-	{% include shellRoot.htm %}curl -O http://repos.upsilon-project.co.uk/upsilon-rpm-fc24/upsilon-rpm-fc24.repo<br />
+	{% include shellRoot.htm %}curl -O http://repos.upsilonproject.io/upsilon-rpm-fc24/upsilon-rpm-fc24.repo<br />
 	{% include shellRoot.htm %}yum install upsilon-node
 	</code>
 </div>
@@ -42,7 +42,7 @@ Then, inside the container;
 <div id = "el6" class = "tab">
 	<code>
 	{% include shellRoot.htm %}cd /etc/yum.repos.d/<br />
-	{% include shellRoot.htm %}curl -O http://repos.upsilon-project.co.uk/upsilon-rpm-el6/upsilon-rpm-el6.repo<br />
+	{% include shellRoot.htm %}curl -O http://repos.upsilonproject.io/upsilon-rpm-el6/upsilon-rpm-el6.repo<br />
 	{% include shellRoot.htm %}yum install upsilon-node
 	</code>
 </div>
@@ -50,7 +50,7 @@ Then, inside the container;
 <div id = "el7" class = "tab">
 	<code>
 	{% include shellRoot.htm %}cd /etc/yum.repos.d/<br />
-	{% include shellRoot.htm %}curl -O http://repos.upsilon-project.co.uk/upsilon-rpm-el7/upsilon-rpm-el7.repo<br />
+	{% include shellRoot.htm %}curl -O http://repos.upsilonproject.io/upsilon-rpm-el7/upsilon-rpm-el7.repo<br />
 	{% include shellRoot.htm %}yum install upsilon-node
 	</code>
 </div>
@@ -58,7 +58,7 @@ Then, inside the container;
 <div id = "debianUbuntu" class = "tab">
 Debian builds are offline at the moment. 
 
-Use the bindist version; http://repos.upsilon-project.co.uk/upsilon-bindist/ 
+Use the bindist version; http://repos.upsilonproject.io/upsilon-bindist/ 
 
 Recommend you install like this; 
 	<code>
@@ -79,11 +79,11 @@ Windows support is quite primitive at the moment. You can download the <a href =
 </div>
 
 <div id = "archivesZip" class = "tab">
-<a href = "http://repos.upsilon-project.co.uk/upsilon-zips/">http://repos.upsilon-project.co.uk/upsilon-zips/</a>
+<a href = "http://repos.upsilonproject.io/upsilon-zips/">http://repos.upsilonproject.io/upsilon-zips/</a>
 </div>
 
 <div id = "archivesTar" class = "tab">
-<a href = "http://repos.upsilon-project.co.uk/upsilon-tars/">http://repos.upsilon-project.co.uk/upsilon-tars/</a>
+<a href = "http://repos.upsilonproject.io/upsilon-tars/">http://repos.upsilonproject.io/upsilon-tars/</a>
 </div>
 
 
