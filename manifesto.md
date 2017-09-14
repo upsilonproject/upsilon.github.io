@@ -39,4 +39,4 @@ will continue to work on it while I myself get benefit out of it.
 
 If you think so, sure, and that's OK. Having more FOSS choices is never a bad thing!
 
-We maintain a list of similar projects on the [competitors](competitors page).
+We maintain a list of similar projects on the [competitors page](competitors).
