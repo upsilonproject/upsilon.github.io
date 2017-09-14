@@ -35,7 +35,7 @@ to justify ongoing work on the project. Speaking personally, I've learnt
 developed projects are out there, I'm proud of what I've created so far and
 will continue to work on it while I myself get benefit out of it. 
 
-## But `[$project](competitors)` is better than Upsilon!
+## But [$project](competitors) is better than Upsilon!
 
 If you think so, sure, and that's OK. Having more FOSS choices is never a bad thing!
 
