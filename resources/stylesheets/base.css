@@ -189,6 +189,7 @@ hr {
 
 div.logo {
 	padding-left: 1em;
+	display: inline-block;
 }
 
 div.logo img, div.logo h1 {
