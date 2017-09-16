@@ -6,6 +6,11 @@ div#content {
 	background-color: white;
 }
 
+div#headerText {
+	max-width: 1024px;
+	margin: auto;
+}
+
 div#torso {
 	max-width: 1024px; 
 	margin: auto;

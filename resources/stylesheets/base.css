@@ -39,6 +39,7 @@ div#header {
 
 nav {
 	vertical-align: middle;
+	text-align: left;
 }
 
 nav a {
@@ -307,9 +308,5 @@ input[type="checkbox"]:checked ~ div.searchContainer {
 
 div#headerText {
 	text-align: center;
-}
-
-div#headerText > * {
-	text-align: auto;
 }
 
