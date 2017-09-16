@@ -37,6 +37,10 @@ div#header {
 	background-color: #444;
 }
 
+nav {
+	vertical-align: middle;
+}
+
 nav a {
 	color: white;
 }
@@ -298,5 +302,9 @@ input[type="checkbox"]:checked ~ div.searchContainer {
 	right: 1em;
 	left: 1em;
 	width: auto;
+}
+
+div#headerText > * {
+	text-align: center;
 }
 

@@ -11,18 +11,53 @@
 
 <body>
 	<div id = "header">
-		{% if page.hideTitle == null %}
-		<div class = "logo">
-			<a href = "/">
-			<img src = "resources/images/logo/120px-Logo.png" width = "30px"/>
-			<h1>upsilon</h1>
-			</a>
+		<div id = "headerText">
+			{% if page.hideTitle == null %}
+			<div class = "logo">
+				<a href = "/">
+				<img src = "resources/images/logo/120px-Logo.png" width = "30px"/>
+				<h1>upsilon</h1>
+				</a>
+			</div>
+			{% endif %}
+
+			<a href = "#content" id = "a11yContentSkip">Skip to content</a>
+
+			<input type = "checkbox" id = "searchToggle" />
+
+			<nav>
+
+				<input type = "checkbox" id = "nav" />
+				<label for = "nav" style = "left: 1em">
+					<div class = "line"></div>
+					<div class = "line"></div>
+					<div class = "line"></div>
+				</label>
+				<ul class = "navigation topmenu">
+					<li><a href = "index">Project</a>
+						<ul class = "navigation submenu">
+							<li><a href = "about">About</a></li>
+							<li><a href = "manifesto">Manifesto</a></li>
+							<li><a href = "http://github.com/upsilonproject">GitHub Project</a></li>
+						</ul>
+					</li>
+					<li><a href = "why">why?</a></li>
+					<li><a href = "docs">documentation</a>
+						<ul class = "navigation submenu">
+							<li><a href = "docs">Overview</a></li>
+							<li><hr style = "margin-top: .5em; margin-bottom: .5em; border-color: white; "/></li>
+							<li><a href = "upsilon-drone">Drone</a></li>
+							<li><a href = "upsilon-web">Web</a></li>
+							<li><a href = "upsilon-reactor">Reactor</a></li>
+							<li><a href = "upsilon-custodian">Custodian</a></li>
+							<li><a href = "upsilon-mobileWeb">MobileWeb</a></li>
+						</ul>
+					</li>
+					<li><a href = "community">community</a></li>
+				</ul>
+			</nav>
 		</div>
-		{% endif %}
 
-		<a href = "#content" id = "a11yContentSkip">Skip to content</a>
-
-		<input type = "checkbox" id = "searchToggle" />
 		<label for = "searchToggle" style = "right: 1em">
 		&#128269;
 		</label>
@@ -41,37 +76,5 @@
 <gcse:search></gcse:search>
 </div>
 
-
-		<nav>
-
-			<input type = "checkbox" id = "nav" />
-			<label for = "nav" style = "left: 1em">
-				<div class = "line"></div>
-				<div class = "line"></div>
-				<div class = "line"></div>
-			</label>
-			<ul class = "navigation topmenu">
-				<li><a href = "index">Project</a>
-					<ul class = "navigation submenu">
-						<li><a href = "about">About</a></li>
-						<li><a href = "manifesto">Manifesto</a></li>
-						<li><a href = "http://github.com/upsilonproject">GitHub Project</a></li>
-					</ul>
-				</li>
-				<li><a href = "why">why?</a></li>
-				<li><a href = "docs">documentation</a>
-					<ul class = "navigation submenu">
-						<li><a href = "docs">Overview</a></li>
-						<li><hr style = "margin-top: .5em; margin-bottom: .5em; border-color: white; "/></li>
-						<li><a href = "upsilon-drone">Drone</a></li>
-						<li><a href = "upsilon-web">Web</a></li>
-						<li><a href = "upsilon-reactor">Reactor</a></li>
-						<li><a href = "upsilon-custodian">Custodian</a></li>
-						<li><a href = "upsilon-mobileWeb">MobileWeb</a></li>
-					</ul>
-				</li>
-				<li><a href = "community">community</a></li>
-			</ul>
-		</nav>
 	</div>
 
