@@ -305,7 +305,11 @@ input[type="checkbox"]:checked ~ div.searchContainer {
 	width: auto;
 }
 
-div#headerText > * {
+div#headerText {
 	text-align: center;
+}
+
+div#headerText > * {
+	text-align: auto;
 }
 
