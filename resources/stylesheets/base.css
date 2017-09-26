@@ -37,6 +37,11 @@ div#header {
 	background-color: #444;
 }
 
+nav {
+	vertical-align: middle;
+	text-align: left;
+}
+
 nav a {
 	color: white;
 }
@@ -99,6 +104,10 @@ label {
 	color: white;
 	text-align: center;
 	vertical-align: middle;
+}
+
+label[for="nav"] {
+	background-color: #000;
 }
 
 label:hover {
@@ -185,6 +194,7 @@ hr {
 
 div.logo {
 	padding-left: 1em;
+	display: inline-block;
 }
 
 div.logo img, div.logo h1 {

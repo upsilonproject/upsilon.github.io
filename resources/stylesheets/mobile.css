@@ -64,3 +64,7 @@ div.line {
 	height: .4em;
 	margin: .3em;
 }
+
+div.logo {
+	padding-Left: 4.5em;
+}

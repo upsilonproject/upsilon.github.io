@@ -2,6 +2,6 @@
 title: Releases
 ---
 
-* [releases-drone Quickstart](releases-drone)
-* [releases-web Quickstart](releases-web)
+* [upsilon-drone](releases-drone)
+* [upsilon-web](releases-web)
 
