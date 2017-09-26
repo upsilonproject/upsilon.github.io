@@ -15,7 +15,7 @@ your favourite hypervisor, or cloud. Upsilon doens't really care where it runs.
 * **RAM:** 4096 Gb   
 * **CPU:** 2x virtual CPUs
 * **NIC:** 1x public network interface 
-* **OS:**: CentOS 7, http://centos.org 
+* **OS:** CentOS 7, http://centos.org 
 * **Firewall:** 
 
 | Port | Reason |
@@ -26,6 +26,7 @@ your favourite hypervisor, or cloud. Upsilon doens't really care where it runs.
 
 ## Once you've setup and logged into the VM
 
+<div>
 Become root on your virtual machine, lets begin :) 
 
 	<code>
@@ -65,5 +66,4 @@ it's not already open;
 	<code>
 	{% include shellRoot.htm %} firewall-cmd --add-service http --permanent
 	</code>
-
-
+</div>
