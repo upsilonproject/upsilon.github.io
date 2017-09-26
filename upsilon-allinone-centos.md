@@ -37,27 +37,27 @@ Add the upsilon yum repository, and the EPEL repository for CentOS (Extra
 Packages for Enterprise Linux); 
 
 	<code>
-	{% include shellRoot.htm %} cd /etc/yum.repos.d/ 
-	{% include shellRoot.htm %} curl -O http://repos.upsilonproject.io/upsilon-rpm-el7/upsilon-rpm-el7.repo
-	{% include shellRoot.htm %} rpm -U https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+	{% include shellRoot.htm %} cd /etc/yum.repos.d/ <br />
+	{% include shellRoot.htm %} curl -O http://repos.upsilonproject.io/upsilon-rpm-el7/upsilon-rpm-el7.repo<br />
+	{% include shellRoot.htm %} rpm -U https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm<br />
 	</code>
 
 Lets install everything! Dependencies will be installed automatically. 
 
 	<code>
-	{% include shellRoot.htm %} yum install upsilon-drone upsilon-web rabbitmq-server mariadb-server
+	{% include shellRoot.htm %} yum install upsilon-drone upsilon-web rabbitmq-server mariadb-server<br />
 	</code>
 
 Lets start the webserver (httpd), the database server (mariadb), the message
 server (rabbitmq) and make sure they restart on reboot (using `enable`); 
 
 	<code>
-	{% include shellRoot.htm %} service httpd enable
-	{% include shellRoot.htm %} service httpd start
-	{% include shellRoot.htm %} service mariadb-server enable
-	{% include shellRoot.htm %} service mariadb-server start
-	{% include shellRoot.htm %} service rabbitmq-server enable
-	{% include shellRoot.htm %} service rabbitmq-server start
+	{% include shellRoot.htm %} service httpd enable<br />
+	{% include shellRoot.htm %} service httpd start<br />
+	{% include shellRoot.htm %} service mariadb-server enable<br />
+	{% include shellRoot.htm %} service mariadb-server start<br />
+	{% include shellRoot.htm %} service rabbitmq-server enable<br />
+	{% include shellRoot.htm %} service rabbitmq-server start<br />
 	</code>
 
 Should be no problems so far. Lets open up the port for the web interface if
