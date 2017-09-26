@@ -19,7 +19,7 @@ your favourite hypervisor, or cloud. Upsilon doens't really care where it runs.
 * **Firewall:** 
 
 | Port | Reason |
-|------|------- |
+| ---- | ------ |
 | TCP Port 22 | SSH inbound traffic - to connect to the VM for administration |
 | TCP Port 80 | HTTP inbound traffic - to access the web interface |
 | TCP Port 4000 | upsilon-drone REST API port |
