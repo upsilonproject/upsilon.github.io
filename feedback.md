@@ -1,9 +1,10 @@
+---
 title: Feedback
 ---
 
 Please say what you think about the Upsilon Project! ;) 
 
-The best way to do this is via our mailing list or if you're more technically-inclined, via our issue trackers; http://github.com/upsilonproject for the relevant project.
+You can send your feedback via one of our [community](community) options, or if you're more technically-inclined, via our [project issue trackers](http://github.com/upsilonproject) for the relevant project.
 
 When giving feedback, please bare these guidelines in mind;
 
