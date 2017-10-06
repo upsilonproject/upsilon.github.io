@@ -4,6 +4,14 @@ title: Documentation
 
 Upsilon is built from a microservices architecture, composed of several services that connect together. This makes Upsilon easy to build, scale and extend. The documentation below lists each microservice separately.
 
+## Environments 
+
+* [Upsilon all in one CentOS virtual machine](upsilon-allinone-centos) (~20 minutes)
+* [Upsilon on OpenShift 3](upsilon-on-openshift) (~5 minutes)
+* [Upsilon your way](upsilon-your-way)
+
+## Services
+
 ### [Drone](upsilon-drone)
 
 The drone is the main worker, it run service checks and collects results. 
