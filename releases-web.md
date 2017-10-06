@@ -2,4 +2,4 @@
 title: upsilon-web Releases
 ---
 
-[Upsilon Repositories](http://repos.upsilon-project.io)
+[Upsilon Repositories](http://repos.upsilonproject.io)
