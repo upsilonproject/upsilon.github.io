@@ -4,7 +4,7 @@ title: All in One on a CentOS 7 Virtual Machine
 
 Upsilon can quite happily exist all in a single virtual machine for most
 deployments. You can scale out and change fairly easily after that too, but
-this sort of configuration is normally best for playing around, testing, kicing
+this sort of configuration is normally best for playing around, testing, kicking
 the tyres and similar. 
 
 This article assumes you know how to install CentOS 7 in a virtual machine on
