@@ -12,17 +12,19 @@ your favourite hypervisor, or cloud. Upsilon doens't really care where it runs.
 
 ## Virtual Machine requirements
 
-* **RAM:** 4096 Gb   
+* **Hypervisor:** any hypervisor/virtualisation that runs CentOS 7 Linux.
+* **RAM:** 4 Gb   
 * **CPU:** 2x virtual CPUs
 * **NIC:** 1x public network interface 
 * **OS:** CentOS 7, http://centos.org 
-* **Firewall:** 
+* **Firewall:** *see below...* 
 
-| Port | Reason |
-| ---- | ------ |
-| TCP Port 22 | SSH inbound traffic - to connect to the VM for administration |
-| TCP Port 80 | HTTP inbound traffic - to access the web interface |
-| TCP Port 4000 | upsilon-drone REST API port |
+| Protocol & Port | Source | Reason |
+| --------------- | ------ | ------ |
+| TCP Port 22 | inbound | SSH inbound traffic - to connect to the VM for administration |
+| TCP Port 80 | inbound | HTTP inbound traffic - to access the web interface (upsilon-web) |
+| TCP Port 4000 | inbound | upsilon-drone inbound traffic - REST API port |
+| TCP (Various port) | outbound | What do you want upsilon to connect to? |
 
 ## Once you've setup and logged into the VM
 

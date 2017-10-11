@@ -1,7 +1,8 @@
 body {
-	font-family: sans-serif;
+	"Open Sans", Helvetica, Arial, sans-serif
 	margin: 0;
 	line-height: 1.5;
+	color: "#545454";
 }
 
 ul.navigation {
@@ -229,13 +230,18 @@ h3 {
 }
 
 div#content table {
-	background-color: #efefef;
 	border-collapse: collapse;
+	width: 100%;
 }
 
-div#content td {
-	border: 1px solid darkgray;
-	padding: .2em;
+div#content td, div#content th {
+	border: 1px solid #f9f9f9;
+	padding: .4em;
+	text-align: left;
+}
+
+div#content th {
+	background-color: #ddd;
 }
 
 a.external, a.external:visited {
