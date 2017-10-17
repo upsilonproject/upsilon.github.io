@@ -235,13 +235,13 @@ div#content table {
 }
 
 div#content td, div#content th {
-	border: 1px solid #f9f9f9;
-	padding: .4em;
+	border: 1px solid #ddd;
+	padding: .6em;
 	text-align: left;
 }
 
 div#content th {
-	background-color: #ddd;
+	background-color: #f9f9f9;
 }
 
 a.external, a.external:visited {
