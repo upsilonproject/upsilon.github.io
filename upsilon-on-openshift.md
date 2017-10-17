@@ -1,5 +1,5 @@
 ---
-title: Upsilon All in one on a OpenShift 3 environment
+title: Upsilon on a OpenShift 3 environment
 ---
 
 Upsilon can be deployed quite easily on top of OpenShift 3 - all it's services 
@@ -18,7 +18,7 @@ Call it anything you like!
 # Upload the Upsilon application template to OpenShift
 
 There is a pre-built Upsilon application template for OpenShift, stored in a
-GitHub repository called [upsilon-ose3-template](https://github.com/upsilonproject/upsilon-ose3-template).
+GitHub repository called [upsilon-on-openshift](https://github.com/upsilonproject/upsilon-on-openshift).
 
 <div>
 Login to OpenShift using the command line tool and upload the application
