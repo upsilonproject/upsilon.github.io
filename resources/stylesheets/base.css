@@ -319,9 +319,10 @@ input[type="checkbox"]:checked ~ div.searchContainer {
 img[src*=screenshots] {
 	width: 200px;
 	float: right;
+	clear: both;
 }
 
-img[src*=screenshots]:focus {
+img[src*=screenshots]:hover {
 	position: absolute;
 	left: auto;
 	right: auto;
