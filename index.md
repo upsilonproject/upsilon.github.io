@@ -21,7 +21,7 @@ DNS records, domain name expiry, MySQL Databases, ping times and any many more, 
 [Download](releases)
 Setup a Upsilon in your environment.
 
-[Documentation](documentation-index)
+[Documentation](docs)
 Installation, configuration, etc
 
 [GitHub organisation](http://github.com/upsilonproject/)
