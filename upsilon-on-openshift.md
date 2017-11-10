@@ -6,7 +6,7 @@ Upsilon can be deployed quite easily on top of OpenShift 3 - all it's services
 dockerized/containerized. You can scale-out of the OpenShift environment and deploy
 upsilon-drone and other services outside too. 
 
-This article addumes you have a OpenShift 3 environment up and running, and
+This article assumes you have a OpenShift 3 environment up and running, and
 have a fairly reasonable quota. 
 
 ### Create a OpenShift project for Upsilon
@@ -61,11 +61,11 @@ but the defaults are fine.
 From this overview screen, you'll want to wait for the upsilon-web pod to come up
 sucessfully. This may take a couple of minutes. 
 
-Create the initial database
+Create the initial database using the create-database script.
 <div>
     <code>
-	{% include shellUser.htm %} <strong>cd /usr/share/upsilon-database/mysql/<br />
-	{% include shellUser.htm %} <strong>./create-database<br />
+	{% include shellUser.htm %} <strong>cd /usr/share/upsilon-database/mysql/</strong><br />
+	{% include shellUser.htm %} <strong>./create-database</strong><br />
     </code>
 </div>
 
