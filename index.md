@@ -6,13 +6,16 @@ title: Homepage
 
 
 ### Distributed
-Send results to external databases or forward results to other nodes. You run service checks on Upsilon nodes in your network where it makes sense. upsilon-web provides a single unified interface of these distributed nodes.
+![resources/images/screenshots/741px-CheckDns.png](Check Dns)
+
+Send results to external databases or forward results to other nodes. You run service checks on Upsilon nodes in your network where it makes sense. The [upsilon-web](upsilon-web) service provides a single unified interface of these distributed nodes.
 
 ### Flexible
-If you can script it, you can monitor it - unlike many monitoring systems, the monitoring scripts are external to the main server. Upsilon has been used to monitor many different things and is totally API compatible with all nagios monitoring scripts. 
+![resources/images/screenshots/741px-Dashboard.png](Dashboard)
+Checks are just super simple scripts. Despite the bunch of checks that are supported already, you and use your favorite language, Bash, Python, to monitor what makes sense to you. Upsilon has been used to monitor many different things and is totally API compatible with all nagios monitoring scripts. 
 
 ### Extensible
-You can add monitoring checks to Upsilon at runtime - without needing to restart the server. The upsilon-node and upsilon-web projects both have their own REST APIs.
+You can add monitoring checks to Upsilon at runtime - without needing to restart the server. The [upsilon-node](upsilon-node) and [upsilon-web](upsilon-web) projects both have their own REST APIs.
 
 DNS records, domain name expiry, MySQL Databases, ping times and any many more, including thousands of existing nagios checks. Create your own in any programming language using the service check API. Read More »
 

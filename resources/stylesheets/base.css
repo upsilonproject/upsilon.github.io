@@ -316,3 +316,15 @@ input[type="checkbox"]:checked ~ div.searchContainer {
 	width: auto;
 }
 
+img[src*=screenshots] {
+	width: 200px;
+	float: right;
+}
+
+img[src*=screenshots]:focus {
+	position: absolute;
+	left: auto;
+	right: auto;
+	top: 0;
+	width: auto;
+}
