@@ -6,12 +6,12 @@ title: Homepage
 
 
 ### Distributed
-![resources/images/screenshots/741px-CheckDns.png](Check Dns)
+![Check DNS Screenshot](resources/images/screenshots/741px-CheckDns.png)
 
 Send results to external databases or forward results to other nodes. You run service checks on Upsilon nodes in your network where it makes sense. The [upsilon-web](upsilon-web) service provides a single unified interface of these distributed nodes.
 
 ### Flexible
-![resources/images/screenshots/741px-Dashboard.png](Dashboard)
+![Check Dashboard Screenshot](resources/images/screenshots/741px-Dashboard.png)
 Checks are just super simple scripts. Despite the bunch of checks that are supported already, you and use your favorite language, Bash, Python, to monitor what makes sense to you. Upsilon has been used to monitor many different things and is totally API compatible with all nagios monitoring scripts. 
 
 ### Extensible
