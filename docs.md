@@ -8,7 +8,8 @@ Upsilon is built from a microservices architecture, composed of several services
 
 * [Upsilon all in one CentOS virtual machine](upsilon-allinone-centos) (~20 minutes)
 * [Upsilon on OpenShift 3](upsilon-on-openshift) (~5 minutes)
-* [Upsilon your way](upsilon-your-way)
+* [Upsilon with Ansible](upsilon-ansible) (experience with ansible needed)
+* [Upsilon your way](upsilon-your-way) (advanced installations)
 
 ## Services
 

@@ -33,6 +33,7 @@ Login to OpenShift using the command line tool and upload the application
 template. 
 
 	<code>
+	{% include shellUser.htm %} <strong>oc new-project upsilon-on-openshift</strong><br />
 	{% include shellUser.htm %} <strong>oc status</strong><br />
 	In project Upsilon on OpenShift (upsilon-on-openshift) on server https://openshift.example.com:8443<br /><br />
 
