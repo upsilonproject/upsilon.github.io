@@ -316,7 +316,7 @@ input[type="checkbox"]:checked ~ div.searchContainer {
 	width: auto;
 }
 
-img[src*=screenshots] {
+img.thumbnail {
 	float: right;
 	clear: both;
 }
