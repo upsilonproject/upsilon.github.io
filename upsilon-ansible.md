@@ -2,7 +2,7 @@
 title: upsilon-ansible
 ---
 
-**Note:** These scripts are in very **early development**, the ansible scripts 
+**Note:** These ansible scripts are in very **early development**, they 
 help, but don't install a full environment. Only useful if you know Upsilon 
 pretty well right now. If you just want to play around with Upsilon for testing, 
 **don't use this method**.
