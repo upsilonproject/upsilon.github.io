@@ -319,6 +319,7 @@ input[type="checkbox"]:checked ~ div.searchContainer {
 img.thumbnail {
 	float: right;
 	clear: both;
+	cursor: pointer;
 }
 
 div#pictureViewer.shown {
