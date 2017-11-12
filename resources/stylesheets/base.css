@@ -340,6 +340,7 @@ div#pictureViewer p {
 	background-color: white;
 	padding: 5px;
 	border-radius: 1em;
+	width: 40%;
 }
 
 div#pictureViewer {
