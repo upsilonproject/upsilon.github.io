@@ -321,3 +321,12 @@ img.thumbnail {
 	clear: both;
 }
 
+div#pictureViewer.shown {
+	border: 2px solid black;
+	border-radius: 1em;
+	display: absolute;
+}
+
+div#pictureViewer {
+	display: none;
+}
