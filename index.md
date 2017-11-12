@@ -8,16 +8,9 @@ title: Homepage
 
 ---
 
-[Download](releases)
-Setup a Upsilon in your environment.
+[Documentation](docs) - Installation, configuration, etc
 
-[Documentation](docs)
-Installation, configuration, etc
-
-[GitHub organisation](http://github.com/upsilonproject/)
-Projects, source code and issue tracking
-
----
+[GitHub organisation](http://github.com/upsilonproject/) - Projects, source code and issue tracking
 
 [Mailing Lists](http://upsilon-project.co.uk/site/index.php/Mailing_Lists)
 The mailing list is upsilonproject@googlegroups.com. Google maintains the list and hosts the mailing list archives. Free free to post anything upsilon related.
