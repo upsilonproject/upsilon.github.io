@@ -11,6 +11,6 @@ title: Why should I use Upsilon?
 
 See the [manifesto](manifesto).
 
-### Why would I not just use `xxx`?
+### Why would I not just use $otherProject?
 
 See our [competitors](competitors)
