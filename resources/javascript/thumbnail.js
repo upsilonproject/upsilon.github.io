@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$('img.thumbnail').on('click', function() {
 		var src = $(this).attr('src');
-		var fullImg = '<img src = "' + src.replace("200", "741") + '" /><p>Click to close.</p>'
+		var fullImg = '<img src = "' + src.replace("200", "741") + '" /><p>Click the image to close.</p>'
 
 		$('div#pictureViewer').addClass("shown");
 		$('div#pictureViewer').html(fullImg);
