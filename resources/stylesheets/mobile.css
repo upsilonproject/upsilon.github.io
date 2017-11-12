@@ -68,3 +68,7 @@ div.line {
 div.logo {
 	padding-Left: 4.5em;
 }
+
+div#pictureViewer p {
+	width: 98%
+}

@@ -335,6 +335,7 @@ div#pictureViewer.shown {
 
 div#pictureViewer img {
 	cursor: pointer;
+	max-width: 98%;
 }
 
 div#pictureViewer p {
