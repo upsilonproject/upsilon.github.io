@@ -72,4 +72,4 @@ Create the initial database using the create-database script.
 
 ### Go to the web application
 
-Click on the upsilon-web route to start the installer.
+Click on the upsilon-web route to [upsilon-web-installer](start the installer).
