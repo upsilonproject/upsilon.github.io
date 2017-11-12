@@ -10,3 +10,7 @@ title: Why should I use Upsilon?
 ### Why was the upsilon project created? 
 
 See the [manifesto](manifesto).
+
+### Why would I not just use `xxx`?
+
+See our [competitors](competitors)
