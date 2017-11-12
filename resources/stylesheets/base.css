@@ -341,6 +341,7 @@ div#pictureViewer p {
 	padding: 5px;
 	border-radius: 1em;
 	width: 40%;
+	margin: auto;
 }
 
 div#pictureViewer {
