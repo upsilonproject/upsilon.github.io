@@ -7,7 +7,7 @@ as everyone has different environments and different requirements.
 
 Here are the high level requirements for running Upsilon
 
-- DNS record `upsilon` that points to the AMQP server.
+- DNS record "upsilon" that points to the AMQP server.
 - Linux environment is largely expected, although parts of Upsilon might run on 
 windows or MacOS, this isn't tested really at all at the moment. CentOS is used
 by the project developers, hence CentOS packages are available. Debian based

@@ -38,3 +38,7 @@ upsilon might work for you, see the [why](why) page.
 ### Zabbix
 
 [zabbix.com](https://www.zabbix.com/)
+
+### Icinga[2]
+
+[icinga.com](https://www.icinga.com)
