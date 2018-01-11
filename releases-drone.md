@@ -3,6 +3,7 @@ title: Upsilon Drone Releases
 ---
 
 <ul class = "tabmenu">
+	<li><a href = "#dockerHub">{% include iconDocker.htm %}Docker hub</a></li>
 	<li><a href = "#dockerCentos">{% include iconDocker.htm %}Docker + {% include iconCentos.htm %}CentOS</a></li>
 	<li><a href = "#fedora">{% include iconFedora.htm %} Fedora</a></li>
 	<li><a href = "#el6">{% include iconRhel.htm %} RHEL, {% include iconCentos.htm %} CentOS (6.x)</a></li>
@@ -14,6 +15,13 @@ title: Upsilon Drone Releases
 	<li><a href = "#archivesZip">{% include iconArchive.htm %} ZIP archives</a></li>
 	<li><a href = "#archivesTar">{% include iconArchive.htm %} TAR archives</a></li>
 </ul>
+
+<div id = "dockerHub" class = "tab">
+On your Linux host, where Docker is already installed;
+	<code>
+	{% include shellRoot.htm %} docker pull upsilonproject/drone
+	</code>
+</div>
 
 <div id = "dockerCentos" class = "tab">
 On your Linux host, where Docker is already installed;
