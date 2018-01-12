@@ -21,6 +21,8 @@ On your Linux host, where Docker is already installed;
 	<code>
 	{% include shellRoot.htm %} docker pull upsilonproject/drone
 	</code>
+
+<a href = "quickstart-drone-docker">upsilon-drone on Docker quickstart</a>
 </div>
 
 <div id = "dockerCentos" class = "tab">
@@ -37,6 +39,8 @@ Then, inside the container;
 	{% include shellContainer.htm %} wget http://repos.upsilonproject.io/upsilon-rpm-el7/upsilon-rpm-el7.repo<br />
 	{% include shellContainer.htm %} yum install upsilon-node
 	</code>
+
+<a href = "quickstart-drone-docker">upsilon-drone on Docker quickstart</a>
 </div>
 
 <div id = "fedora" class = "tab">
