@@ -4,4 +4,7 @@ title: upsilon-drone
 
 upsilon-drone runs the service checks. 
 
-[Quickstart](Quickstarts)
+- [Quickstarts](quickstart-drone)
+- [Releases](releases-drone)
+
+- [Service Checks](service-checks)
