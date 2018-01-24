@@ -6,7 +6,9 @@ This page will describe how to get upsilon-drone up and running in docker. If th
 
 Installer docker on a Linux machine, then start off by pulling the image.
 
-	docker pull upsilonproject/drone
+    <code>
+	{% include shellRoot.htm %} docker pull upsilonproject/drone
+    </code>
 
 Create a new container;
 
