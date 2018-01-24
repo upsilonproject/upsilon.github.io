@@ -6,32 +6,38 @@ This page will describe how to get upsilon-drone up and running in docker. If th
 
 Installer docker on a Linux machine, then start off by pulling the image.
 
-    <code>
+<code>
 	{% include shellRoot.htm %} docker pull upsilonproject/drone
-    </code>
+</code>
 
 Create a new container;
 
-	docker create upsilonproject/drone
+<code>
+{% include shellRoot.htm %} docker create upsilonproject/drone
+a73536869670...
+</code>
 
 This should give you a new new container to play with, and will print it's ID
 when created.
 
 Start the container using the new ID;
 
-	docker start ddd...
+	docker start a73536869670...
 
 We should see the drone start up; 
 
+<code>
 	user@host: docker ps
 
 	CONTAINER ID        IMAGE                    COMMAND                  CREATED             STATUS              PORTS                                                                                                                   NAMES
-ddde6e055b12        upsilonproject/drone     "/bin/sh -c /usr/shar"   13 seconds ago      Up 3 seconds
+    a73536869670        upsilonproject/drone     "/bin/sh -c /usr/shar"   13 seconds ago      Up 3 seconds
+</code>
 
 
 Looks good. Lets check the logs;
 
-	ssh root@stuffbox: docker logs ddd
+<code>
+	{% include shellRoot.htm %} : docker logs a73536869670
 	DEBUG Logging override configuration exists, parsing: /etc/upsilon-drone/logging.xml
 	INFO  Upsilon 2.2.0-0-1505432429
 	INFO  ----------
@@ -42,6 +48,7 @@ Looks good. Lets check the logs;
 	INFO  Starting daemon: DaemonRest
 	INFO  Starting the AMQP listener, connecting to host: upsilon
 	DEBUG Server started at: http://0.0.0.0:4000/
+</code>
 
 This looks like upsilon-drone starting up no problems at all. It will look for
 a AMQP server using the DNS name "upsilon".  
