@@ -13,7 +13,8 @@ Installer docker on a Linux machine, then start off by pulling the image.
 Create a new container;
 
 <code>
-{% include shellRoot.htm %} docker create upsilonproject/drone
+{% include shellRoot.htm %} docker create --name upsilon-drone -e UPSILON_CONFIG_SYSTEM_AMQPHOST=upsilon.example.com -e UPSILON_IDENTIFIER=drone1.example.com
+upsilonproject/drone
 a73536869670...
 </code>
 
@@ -23,7 +24,7 @@ when created.
 Start the container using the new ID;
 
 <code>
-{% include shellRoot.htm %} docker start a73536869670...
+{% include shellRoot.htm %} docker start upsilon-drone
 </code>
 
 We should see the drone start up; 
@@ -32,18 +33,18 @@ We should see the drone start up;
 {% include shellRoot.htm %} docker ps
 
 CONTAINER ID        IMAGE                    COMMAND                  CREATED             STATUS              PORTS                                                                                                                   NAMES
-a73536869670        upsilonproject/drone     "/bin/sh -c /usr/shar"   13 seconds ago      Up 3 seconds
+a73536869670        upsilonproject/drone     "/bin/sh -c /usr/shar"   13 seconds ago      Up 3 seconds      upsilon-drone
 </code>
 
 
 Looks good. Lets check the logs;
 
 <code>
-{% include shellRoot.htm %} : docker logs a73536869670
+{% include shellRoot.htm %} : docker logs upsilon-drone
 DEBUG Logging override configuration exists, parsing: /etc/upsilon-drone/logging.xml
 INFO  Upsilon 2.2.0-0-1505432429
 INFO  ----------
-INFO  Identifier: 6e3a122c-ed23-4a92-886d-3ae571531af1
+INFO  Identifier: drone1.example.com
 INFO  Configuration file does not exist, configuration will only be possible via AMQP. 
 INFO  Before dns setup; networkaddress.cache[.negative].ttl = null / 10
 INFO  After dns setup; networkaddress.cache[.negative].ttl = 60 / 60
