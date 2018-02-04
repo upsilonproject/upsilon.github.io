@@ -6,40 +6,52 @@ This page will describe how to get upsilon-drone up and running in docker. If th
 
 Installer docker on a Linux machine, then start off by pulling the image.
 
-	docker pull upsilonproject/drone
+<code>
+	{% include shellRoot.htm %} docker pull upsilonproject/drone
+</code>
 
 Create a new container;
 
-	docker create upsilonproject/drone
+<code>
+{% include shellRoot.htm %} docker create --name upsilon-drone -e UPSILON_CONFIG_SYSTEM_AMQPHOST=upsilon.example.com -e UPSILON_IDENTIFIER=drone1.example.com
+upsilonproject/drone
+a73536869670...
+</code>
 
 This should give you a new new container to play with, and will print it's ID
 when created.
 
 Start the container using the new ID;
 
-	docker start ddd...
+<code>
+{% include shellRoot.htm %} docker start upsilon-drone
+</code>
 
 We should see the drone start up; 
 
-	user@host: docker ps
+<code>
+{% include shellRoot.htm %} docker ps
 
-	CONTAINER ID        IMAGE                    COMMAND                  CREATED             STATUS              PORTS                                                                                                                   NAMES
-ddde6e055b12        upsilonproject/drone     "/bin/sh -c /usr/shar"   13 seconds ago      Up 3 seconds
+CONTAINER ID        IMAGE                    COMMAND                  CREATED             STATUS              PORTS                                                                                                                   NAMES
+a73536869670        upsilonproject/drone     "/bin/sh -c /usr/shar"   13 seconds ago      Up 3 seconds      upsilon-drone
+</code>
 
 
 Looks good. Lets check the logs;
 
-	ssh root@stuffbox: docker logs ddd
-	DEBUG Logging override configuration exists, parsing: /etc/upsilon-drone/logging.xml
-	INFO  Upsilon 2.2.0-0-1505432429
-	INFO  ----------
-	INFO  Identifier: 6e3a122c-ed23-4a92-886d-3ae571531af1
-	INFO  Configuration file does not exist, configuration will only be possible via AMQP. 
-	INFO  Before dns setup; networkaddress.cache[.negative].ttl = null / 10
-	INFO  After dns setup; networkaddress.cache[.negative].ttl = 60 / 60
-	INFO  Starting daemon: DaemonRest
-	INFO  Starting the AMQP listener, connecting to host: upsilon
-	DEBUG Server started at: http://0.0.0.0:4000/
+<code>
+{% include shellRoot.htm %} : docker logs upsilon-drone
+DEBUG Logging override configuration exists, parsing: /etc/upsilon-drone/logging.xml
+INFO  Upsilon 2.2.0-0-1505432429
+INFO  ----------
+INFO  Identifier: drone1.example.com
+INFO  Configuration file does not exist, configuration will only be possible via AMQP. 
+INFO  Before dns setup; networkaddress.cache[.negative].ttl = null / 10
+INFO  After dns setup; networkaddress.cache[.negative].ttl = 60 / 60
+INFO  Starting daemon: DaemonRest
+INFO  Starting the AMQP listener, connecting to host: upsilon
+DEBUG Server started at: http://0.0.0.0:4000/
+</code>
 
 This looks like upsilon-drone starting up no problems at all. It will look for
 a AMQP server using the DNS name "upsilon".  
