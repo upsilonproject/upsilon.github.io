@@ -42,3 +42,7 @@ upsilon might work for you, see the [why](why) page.
 ### Icinga[2]
 
 [icinga.com](https://www.icinga.com)
+
+### OpenStack Monasca
+
+[monasca](https://wiki.openstack.org/wiki/Monasca)
