@@ -2,4 +2,8 @@
 title: upsilon-web
 ---
 
-- [upsilon-web Installer](upsilon-web-installer)
+![Check DNS](resources/images/screenshots/200px-CheckDns.png)
+
+The web interface.
+
+- [upsilon-web Documentation](http://docs.upsilonproject.io/#_web)
