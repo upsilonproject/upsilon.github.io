@@ -35,6 +35,10 @@ to justify ongoing work on the project. Speaking personally, I've learnt
 developed projects are out there, I'm proud of what I've created so far and
 will continue to work on it while I myself get benefit out of it. 
 
+## What are the goals of the Upsilon project now?
+
+See the [why](why) page for a list of the project goals now - you can see how things have changed.
+
 ## But [$project](competitors) is better than Upsilon!
 
 If you think so, sure, and that's OK. Having more FOSS choices is never a bad thing!
