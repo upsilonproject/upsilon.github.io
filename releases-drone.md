@@ -37,7 +37,7 @@ Then, inside the container;
 	{% include shellContainer.htm %} yum install vim wget -y<br />
 	{% include shellContainer.htm %} cd /etc/yum.repos.d<br />
 	{% include shellContainer.htm %} wget http://repos.upsilonproject.io/upsilon-rpm-el7/upsilon-rpm-el7.repo<br />
-	{% include shellContainer.htm %} yum install upsilon-node
+	{% include shellContainer.htm %} yum install upsilon-drone
 	</code>
 
 <a href = "quickstart-drone-docker">upsilon-drone on Docker quickstart</a>
@@ -47,7 +47,7 @@ Then, inside the container;
 	<code>
 	{% include shellRoot.htm %}cd /etc/yum.repos.d/<br />
 	{% include shellRoot.htm %}curl -O http://repos.upsilonproject.io/upsilon-rpm-fc24/upsilon-rpm-fc24.repo<br />
-	{% include shellRoot.htm %}yum install upsilon-node
+	{% include shellRoot.htm %}yum install upsilon-drone
 	</code>
 </div>
 
@@ -55,7 +55,7 @@ Then, inside the container;
 	<code>
 	{% include shellRoot.htm %}cd /etc/yum.repos.d/<br />
 	{% include shellRoot.htm %}curl -O http://repos.upsilonproject.io/upsilon-rpm-el6/upsilon-rpm-el6.repo<br />
-	{% include shellRoot.htm %}yum install upsilon-node
+	{% include shellRoot.htm %}yum install upsilon-drone
 	</code>
 </div>
 
@@ -63,7 +63,7 @@ Then, inside the container;
 	<code>
 	{% include shellRoot.htm %}cd /etc/yum.repos.d/<br />
 	{% include shellRoot.htm %}curl -O http://repos.upsilonproject.io/upsilon-rpm-el7/upsilon-rpm-el7.repo<br />
-	{% include shellRoot.htm %}yum install upsilon-node
+	{% include shellRoot.htm %}yum install upsilon-drone
 	</code>
 </div>
 
