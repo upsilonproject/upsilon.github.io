@@ -2,6 +2,6 @@
 title: Releases
 ---
 
-Releases of upsilon are published to a few places, such as **http://repos.upsilonproject.io** and **docker hub**. 
+Releases of upsilon are published to a few places, such as [repos.upsilonproject.io](http://repos.upsilonproject.io) and **docker hub**. 
 
-You should check out the **documentation** to get started - http://docs.upsilonproject.io . 
+You should check out the **Documentation** &raquo; **Installation** to get started - [upsilon docs](http://docs.upsilonproject.io). 
