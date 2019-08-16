@@ -11,11 +11,9 @@ This page lists other projects in the same space, and explains what Upsilon
 does better (or worse) than those projects. If you generally want to know why
 upsilon might work for you, see the [why](why) page.
 
-## here does Upsilon overlap?
-
-| Project        | Gathering results        | Dashboards             | Alerting            | Time Series Database
+| Project                       | Gathering results        | Dashboards             | Alerting            | Time Series Database
 | --- | --- | --- |
-| Upsilon                       | &#10004; (upsilon-drone) | &#10004; (upsilon-web) | ~ (upsilon-reactor) | &#10004; (upsilon-custodian)
+| **Upsilon Project**           | &#10004; (upsilon-drone) | &#10004; (upsilon-web) | ~ (upsilon-reactor) | &#10004; (upsilon-custodian)
 | [Nagios](competitor-nagios)   | &#10004;                 | &#10004;               | &#10004;            | Not researched
 | Prometheus                    | Not researched           | N/A                    | &#10004;            | Not researched
 | Grafana                       | N/A                      | &#10004;               | ~                   | N/A
