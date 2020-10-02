@@ -121,11 +121,13 @@ input[type="checkbox"], label.mobileOnly {
 }
 
 nav a:focus {
-	color: cyan;
+	background-color: maroon;
+	color: white;
 }
 
 div#content a:focus {
-	background-color: cyan;
+	background-color: maroon;
+	color: white;
 }
 
 nav a {
@@ -152,8 +154,8 @@ div#header a#a11yContentSkip:focus {
 	height: auto;
 	overflow: auto;
 	top: auto;
-	background-color: cyan;
-	color: black;
+	background-color: maroon;
+	color: white;
 }
 
 div.searchContainer {
