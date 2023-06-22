@@ -1,14 +1,21 @@
-<h3>Distributed</h3>
-<img src = "resources/images/screenshots/200px-CheckDns.png" alt = "Check DNS Screenshot" class = "thumbnail" />
-<p markdown = "1">Send results to external databases or forward results to a central database. You run service checks on Upsilon drones in your network where it makes sense. The [upsilon-web](upsilon-web) service provides a single unified interface of these distributed drones.</p>
+<h3>Easy to understand, to use, to maintain</h3>
+<p markdown = "1">Upsilon has been improved over the years to make it easier, and is motivated to get even easier, as so many other orchestrators take hours, days and weeks to understand, use and maintain.</p>
 
+<h3>Distributed, with a fault tolerant, very lightweight control plane</h3>
+<p markdown = "1">Execute commands on different servers, and store results in a central database. The results are accessible from the [upsilon-web interface](upsilon-web), or via the command line client.</p>
 
-<h3> Flexible</h3>
-<img src = "resources/images/screenshots/200px-Dashboard.png" alt = "Dashboard screenshot" class = "thumbnail" />
-<p>Checks are just super simple scripts. Despite the bunch of checks that are supported already, you and use your favorite language, Bash, Python, to monitor what makes sense to you. Upsilon has been used to monitor many different things and is totally API compatible with all nagios monitoring scripts. </p>
+<h3>Lightweight to start, incredibly easy to scale</h3>
+<p markdown = "1">Happily runs on a raspberry Pi, a little laptop, homelab servers, or theoretically thousands of machines.</p>
 
-<h3>Extensible</h3>
-<p markdown = "1">You can add monitoring checks to Upsilon at runtime - without needing to restart the server. The [upsilon-drone](upsilon-drone) and [upsilon-web](upsilon-web) projects both have their own REST APIs.</p>
+<h3>Autoconfiguration</h3>
+<p markdown = "1">The services that make up upsilon all try to rely on autodiscovery whenever possible, meaning that most services don't need any manual configuration, or very little. </p>
 
-<p markdown = "1">DNS records, domain name expiry, MySQL Databases, ping times and any many more, including thousands of existing nagios checks. Create your own in any programming language using the service check API. [Read More &raquo;](service-checks)</p>
+<h3>Use with scripts and commands you already have</h3>
+<p markdown = "1">Scripts, shell commands - execute whatever you need with no changed need to work with Upsilon.</p>
+
+<h3>Use a Configuration as Code approach</h3>
+<p markdown = "1">Use Modern YAML configuration syntax, with built-in support for pulling updates from Git.</p>
+
+<h3>SQL database</h3>
+<p markdown = "1">Upsilon's use of SQL is very lightweight, and would likely work with any SQL database. MySQL is the only one supported at the moment.</p>
 
