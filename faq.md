@@ -6,7 +6,7 @@ title: FAQ
 
 ### What does Upsilon do well?
 
-See the [index](homepage) to a list of use cases where Upsilon could be used.
+See the [homepage](index) to a list of use cases where Upsilon could be used.
 
 ### What sucks about Upsilon project?
 **Lots of things!**. Some parts are written in PHP, it hasn't been tested at large scale, so it means there are probably hidden security holes and quite a few bugs. 

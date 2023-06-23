@@ -81,6 +81,10 @@ div#header div.logo a {
 	text-decoration: none;
 }
 
+div#header h2 {
+  text-transform: none;
+}
+
 h2 {
   text-transform: uppercase;
   margin-bottom: 0;
