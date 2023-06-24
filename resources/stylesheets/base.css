@@ -81,8 +81,9 @@ div#header div.logo a {
 	text-decoration: none;
 }
 
-div#splah h2 {
+div#splash h2 {
   text-transform: none;
+  color: white;
 }
 
 h2 {

@@ -3,7 +3,6 @@ layout: homepage
 hideTitle: true
 title: Homepage
 ---
-
 ## Use cases
 
 Easily orchestrate and run processes (scripts or shell commands) in an identical way, across several machines.
