@@ -81,13 +81,18 @@ div#header div.logo a {
 	text-decoration: none;
 }
 
-div#header h2 {
+div#splah h2 {
   text-transform: none;
 }
 
 h2 {
   text-transform: uppercase;
   margin-bottom: 0;
+  color: maroon;
+}
+
+h2:first-child {
+  margin-top: 0;
 }
 
 h3 {
