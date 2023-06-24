@@ -25,8 +25,10 @@ Upsilon has been improved over the years to make it easier to adopt, and ongoing
 
 Containers are a great technology, but Upsilon is designed to do process orechstration without containers, which really do have a massive overhead to get started. Containers require you to setup your own secure registry, a build process for containers, and Kubernetes can be easy to start with, but has a huge maintenance overhead. While Containers and Kubernetes are awesome technologies, sometimes it's nice not to have to worry about all that overhead.
 
-### Low effort and resources needed to get started, incredibly easy to scale
+### Start very small, scale to very large, without headaches.
 Happily runs on a raspberry Pi, a little laptop, homelab servers, or theoretically thousands of machines.
+
+The architecture of upsilon means you don't have to worry about making databases highly available, configuring networking virtual IPs, or all the other hassle that comes with scaling up distributed systems most of the time.
 
 ### The control plane is fault tolerant
 The control plane is made up of 3 components - a message queue (rabbitmq), a database (MySQL), and a microservice (upsilon-custodian) that saves things from the message queue to the database). If any of those components go down, the other services will gracefully buffer anything in progress, and resume when the services come back.
