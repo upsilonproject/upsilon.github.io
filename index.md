@@ -7,15 +7,15 @@ title: Homepage
 Easily orchestrate and run processes (scripts or shell commands) in an identical way, across several machines.
 
 ### Easy to use as a replacement for traditional services
-* eg: Backup Scripts that run at a specific time of day
-* eg: Monitoring Scripts that run every 30 minutes
+* eg: **cron** - Backup Scripts that run at a specific time of day
+* eg: **cron** - Monitoring Scripts that run every 30 minutes
 * eg: Trigger a complex command to run when an admin starts it
 * eg: Trigger a download, picking the first available server to use
-* eg: Apply the standard build scripts after a new server has been deployed, and keep them up to date.
+* eg: **automation** Apply the standard build scripts after a new server has been deployed, and keep them up to date.
 
 ### Build up complex systems, workfloes and pipelines that are way more than the sum of their parts
-* eg: CI/CD systems
-* eg: Data Science workflows
+* eg: **CI/CD** systems, replace horribly overcomplicated tools like Jenkins, Tekton, etc
+* eg: Data Science workflows - replacing Apache Airflow, etc.
 * eg: Infrastructure application data monitoring processes
 
 ## Design principles
