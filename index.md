@@ -4,24 +4,26 @@ hideTitle: true
 title: Homepage
 ---
 ## Use cases
-
 Easily orchestrate and run processes (scripts or shell commands) in an identical way, across several machines.
 
-* Easy to use as a replacement for traditional services
-  * eg: Backup Scripts that run at a specific time of day
-  * eg: Monitoring Scripts that run every 30 minutes
-  * eg: Trigger a complex command to run when an admin starts it
-  * eg: Trigger a download, picking the first available server to use
-  * eg: Apply the standard build scripts after a new server has been deployed, and keep them up to date.
-* Build up complex systems, workfloes and pipelines that are way more than the sum of their parts
-  * eg: CI/CD systems
-  * eg: Data Science workflows
-  * eg: Infrastructure application data monitoring processes
+### Easy to use as a replacement for traditional services
+* eg: Backup Scripts that run at a specific time of day
+* eg: Monitoring Scripts that run every 30 minutes
+* eg: Trigger a complex command to run when an admin starts it
+* eg: Trigger a download, picking the first available server to use
+* eg: Apply the standard build scripts after a new server has been deployed, and keep them up to date.
+
+### Build up complex systems, workfloes and pipelines that are way more than the sum of their parts
+* eg: CI/CD systems
+* eg: Data Science workflows
+* eg: Infrastructure application data monitoring processes
 
 ## Design principles
 
 ### Easy to understand, to use, to maintain
-Upsilon has been improved over the years to make it easier, and is motivated to get even easier, as so many other orchestrators take hours, days and weeks to understand, use and maintain.
+Upsilon has been improved over the years to make it easier to adopt, and ongoing development continues to focus on making it even easier, as so many other orchestrators take hours, days and weeks to understand, use and maintain.
+
+Containers are a great technology, but Upsilon is designed to do process orechstration without containers, which really do have a massive overhead to get started. Containers require you to setup your own secure registry, a build process for containers, and Kubernetes can be easy to start with, but has a huge maintenance overhead. While Containers and Kubernetes are awesome technologies, sometimes it's nice not to have to worry about all that overhead.
 
 ### Low effort and resources needed to get started, incredibly easy to scale
 Happily runs on a raspberry Pi, a little laptop, homelab servers, or theoretically thousands of machines.
@@ -42,8 +44,6 @@ Use Modern YAML configuration syntax, with built-in support for pulling updates 
 All persistent configuration is just a YAML text file, and Upsilon has builtin support for pulling this from a standard Git repository.
 
 All persistent data is stored in a MySQL database, and there are about 7 trillion standard tools available to backup a MySQL database already well tested and well used.
-
----
 
 [![](https://www.ohloh.net/p/upsilonproject/widgets/project_thin_badge.gif)](https://ohloh.net/p/upsilonproject/)
 
