@@ -14,8 +14,8 @@ upsilon might work for you, see the [why](why) page.
 | Project                       | Gathering results        | Dashboards             | Alerting            | Time Series Database
 | --- | --- | --- |
 | **Upsilon Project**           | &#10004; (upsilon-drone) | &#10004; (upsilon-web) | ~ (upsilon-reactor) | &#10004; (upsilon-custodian)
-| [Nagios](competitor-nagios)   | &#10004;                 | &#10004;               | &#10004;            | Not researched
-| Prometheus                    | Not researched           | N/A                    | &#10004;            | Not researched
+| [Nagios](competitor-nagios)   | &#10004;                 | &#10004;               | &#10004;            | &#100004; RRD.
+| Prometheus                    | &#10004;                 | N/A                    | &#10004;            | &#100004;
 | Grafana                       | N/A                      | &#10004;               | ~                   | N/A
 | Zabbix                        | &#10004;                 | Not researched         | Not researched      | Not researched 
 | Icinga                        | &#10004;                 | Not researched         | Not researched      | Not researched 

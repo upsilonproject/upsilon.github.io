@@ -17,7 +17,7 @@ However, if it did made sense to have a "*sales pitch*", it would be;
 
 If you are looking for a *real* monitoring solution - go take a look at the CNCF landscape; https://github.com/cncf/landscape
 
-## What are the goals of the Upsilon project?
+### What are the goals of the Upsilon project?
 
 1. To have a large, ambitious development and coding project with which to experiement with new ideas and learn new things.
 2. To see how difficult it is to build a community around something.
